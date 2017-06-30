@@ -39,7 +39,7 @@ class User: NSObject {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        guard let uid = aDecoder.decadeObject(forKey: Constants.UserDefaults.uid) as? String,
+        guard let uid = aDecoder.decodeObject(forKey: Constants.UserDefaults.uid) as? String,
         let username = aDecoder.decodeObject(forKey: Constants.UserDefaults.username) as? String
             else { return nil }
         
