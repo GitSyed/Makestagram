@@ -48,22 +48,39 @@ extension LoginViewController: FUIAuthDelegate {
         if let error = error {
             assertionFailure("Error signing in: \(error.localizedDescription)")
             return
+            
+                UserService.show(forUID: user!.uid) { (user) in
+                    if let user = user {
+                        // handle existing user
+                        User.setCurrent(user, writeToUserDefaults: true)
+                        
+                        let initialViewController = UIStoryboard.initialViewController(for: .main)
+                        self.view.window?.rootViewController = initialViewController
+                        self.view.window?.makeKeyAndVisible()
+                    } else {
+                        // handle new user
+                        self.performSegue(withIdentifier: Constants.Segue.toCreateUsername, sender: self)
+                    }
+            }
         }
         
         
         
         guard let user = user
             else { return }
+        
+        
         UserService.show(forUID: user.uid) { (user) in
             if let user = user {
-                User.setCurrent(user)
+                User.setCurrent(user, writeToUserDefaults: true)
                 
                 let initialViewController = UIStoryboard.initialViewController(for: .main)
                 self.view.window?.rootViewController = initialViewController
                 self.view.window?.makeKeyAndVisible()
                 
             } else {
-                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
+                //handle new user
+                self.performSegue(withIdentifier: Constants.Segue.toCreateUsername, sender: self)
             }
         }
         

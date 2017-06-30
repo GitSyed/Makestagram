@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="Suz-Gk-ufW">
             <objects>
-                <viewController id="nmz-as-8eP" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController id="nmz-as-8eP" customClass="LoginViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QEy-sB-GwX"/>
                         <viewControllerLayoutGuide type="bottom" id="Y0J-e5-IWB"/>
