@@ -33,7 +33,7 @@
         <!--Find Friends View Controller-->
         <scene sceneID="Z6t-df-LM3">
             <objects>
-                <viewController id="qcA-q6-ial" customClass="FindFriendsViewController" sceneMemberID="viewController">
+                <viewController id="qcA-q6-ial" customClass="FindFriendsViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="H4O-Rn-qbq"/>
                         <viewControllerLayoutGuide type="bottom" id="jYS-vC-jSR"/>
@@ -54,7 +54,7 @@
         <!--Home View Controller-->
         <scene sceneID="pBX-0c-wXZ">
             <objects>
-                <viewController id="XOu-DA-fUI" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController id="XOu-DA-fUI" customClass="HomeViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="44U-7r-gZV"/>
                         <viewControllerLayoutGuide type="bottom" id="41l-1z-SaU"/>

@@ -34,6 +34,8 @@
 		52082C211F054EDB0086CB86 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		52082C231F06987C0086CB86 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		52082C281F06B3FF0086CB86 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
+		52082C2A1F06CB7E0086CB86 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		52082C2C1F06CB8B0086CB86 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		5242091B1F0178DB00AF26DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5265DB581F02D9BE00827860 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5265DB5B1F02F1BA00827860 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +174,8 @@
 		9910B19381B15AF35F04B690 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52082C2C1F06CB8B0086CB86 /* AdSupport.framework */,
+				52082C2A1F06CB7E0086CB86 /* iAd.framework */,
 				28950E02771CB966B5D4B7BE /* Pods_Makestagram.framework */,
 			);
 			name = Frameworks;

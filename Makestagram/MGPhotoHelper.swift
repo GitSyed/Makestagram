@@ -15,8 +15,6 @@ class MGPhotoHelper: NSObject {
     // MARK: - Helper Methods
     
     
-    
-    func presentActionSheet(from viewController: UIViewController) {
         func presentActionSheet(from viewController: UIViewController) {
             // 1
             let alertController = UIAlertController(title: nil, message: "Where do you want to get your picture from?", preferredStyle: .actionSheet)
@@ -49,4 +47,4 @@ class MGPhotoHelper: NSObject {
             viewController.present(alertController, animated: true)
         }
     }
-}
+
