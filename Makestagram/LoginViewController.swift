@@ -16,6 +16,7 @@ typealias FIRUser = FirebaseAuth.User
 
 class LoginViewController: UIViewController{
     
+    
     @IBOutlet weak var loginButton: UIButton!
 
     override func viewDidLoad() {
@@ -24,6 +25,7 @@ class LoginViewController: UIViewController{
     }
     
     @IBAction func loginButtonTapped(_ sender: Any) {
+    
         print("login button tapped")
         
         // MARK: - IBActions
