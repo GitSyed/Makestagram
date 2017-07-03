@@ -17,6 +17,9 @@
 		5210BCD81F0837310018D06C /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210BCD71F0837310018D06C /* StorageService.swift */; };
 		5210BCDA1F08382F0018D06C /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210BCD91F08382F0018D06C /* PostService.swift */; };
 		5210BCDC1F083AFB0018D06C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210BCDB1F083AFB0018D06C /* Post.swift */; };
+		5210BCDE1F083E990018D06C /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210BCDD1F083E990018D06C /* UIImage+Size.swift */; };
+		5210BCE01F083F8C0018D06C /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210BCDF1F083F8C0018D06C /* StorageReference+Post.swift */; };
+		5210BCE21F0944E80018D06C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5210BCE11F0944E80018D06C /* Home.storyboard */; };
 		5242091C1F0178DB00AF26DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5242091B1F0178DB00AF26DF /* GoogleService-Info.plist */; };
 		5265DB591F02D9BE00827860 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB581F02D9BE00827860 /* User.swift */; };
 		5265DB5C1F02F1BA00827860 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB5B1F02F1BA00827860 /* CreateUsernameViewController.swift */; };
@@ -42,6 +45,9 @@
 		5210BCD71F0837310018D06C /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		5210BCD91F08382F0018D06C /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		5210BCDB1F083AFB0018D06C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5210BCDD1F083E990018D06C /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		5210BCDF1F083F8C0018D06C /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		5210BCE11F0944E80018D06C /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		5242091B1F0178DB00AF26DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5265DB581F02D9BE00827860 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5265DB5B1F02F1BA00827860 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +121,7 @@
 			children = (
 				5269EBC81F018C66009074DE /* Login.storyboard */,
 				52082C171F053E630086CB86 /* Main.storyboard */,
+				5210BCE11F0944E80018D06C /* Home.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -132,6 +139,8 @@
 		52CB6D851F04295C00556425 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5210BCDF1F083F8C0018D06C /* StorageReference+Post.swift */,
+				5210BCDD1F083E990018D06C /* UIImage+Size.swift */,
 				52CB6D861F04298500556425 /* Storyboard+Utility.swift */,
 			);
 			name = Extensions;
@@ -256,6 +265,7 @@
 				52E085281F00AE8E00DFB53B /* LaunchScreen.storyboard in Resources */,
 				52082C181F053E630086CB86 /* Main.storyboard in Resources */,
 				5242091C1F0178DB00AF26DF /* GoogleService-Info.plist in Resources */,
+				5210BCE21F0944E80018D06C /* Home.storyboard in Resources */,
 				5269EBC91F018C66009074DE /* Login.storyboard in Resources */,
 				52082C1E1F054AA40086CB86 /* Assets.xcassets in Resources */,
 			);
@@ -322,10 +332,12 @@
 				52CB6D821F03F48500556425 /* UserService.swift in Sources */,
 				52082C201F054EC20086CB86 /* HomeViewController.swift in Sources */,
 				5210BCDC1F083AFB0018D06C /* Post.swift in Sources */,
+				5210BCDE1F083E990018D06C /* UIImage+Size.swift in Sources */,
 				52CB6D871F04298500556425 /* Storyboard+Utility.swift in Sources */,
 				52082C291F06B3FF0086CB86 /* MGPhotoHelper.swift in Sources */,
 				52082C221F054EDB0086CB86 /* FindFriendsViewController.swift in Sources */,
 				52CB6D841F041D4D00556425 /* Constants.swift in Sources */,
+				5210BCE01F083F8C0018D06C /* StorageReference+Post.swift in Sources */,
 				5265DB5C1F02F1BA00827860 /* CreateUsernameViewController.swift in Sources */,
 				5210BCDA1F08382F0018D06C /* PostService.swift in Sources */,
 				52082C241F06987C0086CB86 /* MainTabBarController.swift in Sources */,
